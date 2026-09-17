@@ -1,0 +1,25 @@
+{
+    "threshold": 0.992,
+    "input_size": 17,
+    "numerical_features": [
+        "step",
+        "amount",
+        "oldbalanceOrg",
+        "newbalanceOrig",
+        "oldbalanceDest",
+        "newbalanceDest",
+        "orig_balance_change",
+        "dest_balance_change",
+        "amount_to_orig_balance",
+        "amount_to_dest_balance",
+        "orig_balance_zero",
+        "dest_balance_zero"
+    ],
+    "type_columns": [
+        "type_CASH_IN",
+        "type_CASH_OUT",
+        "type_DEBIT",
+        "type_PAYMENT",
+        "type_TRANSFER"
+    ]
+}
